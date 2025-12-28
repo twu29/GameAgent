@@ -3,12 +3,6 @@ twu29_KInARow.py
 Authors: Wu, Alley; Cheng, Katharina
 
 An agent for playing "K-in-a-Row with Forbidden Squares" and related games.
-CSE 415, University of Washington
-
-THIS IS A TEMPLATE WITH STUBS FOR THE REQUIRED FUNCTIONS.
-YOU CAN ADD WHATEVER ADDITIONAL FUNCTIONS YOU NEED IN ORDER
-TO PROVIDE A GOOD STRUCTURE FOR YOUR IMPLEMENTATION.
-
 '''
 
 from agent_base import KAgent
@@ -17,16 +11,13 @@ from game_types import State, Game_Type
 AUTHORS = 'Alley Wu and Katharina Cheng' 
 UWNETIDS = ['twu29', 'qiaoyc2']
 
-import time # You'll probably need this to avoid losing a
+import time # need this to avoid losing a
  # game due to exceeding a time limit.
 import math
 import os, random
 import google.generativeai as genai
 
 genai.configure(api_key='AIzaSyAnWd7o0xm7H_4HT75NeTYtElC6h9cs0Wc')
-
-# Create your own type of agent by subclassing KAgent:
-
 
 
 class OurAgent(KAgent):  # Keep the class name "OurAgent" so a game master
