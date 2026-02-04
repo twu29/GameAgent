@@ -17,8 +17,6 @@ import math
 import os, random
 import google.generativeai as genai
 
-genai.configure(api_key='AIzaSyAnWd7o0xm7H_4HT75NeTYtElC6h9cs0Wc')
-
 
 class OurAgent(KAgent):  # Keep the class name "OurAgent" so a game master
     # knows how to instantiate your agent class.
